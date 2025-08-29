@@ -1,0 +1,9 @@
+{
+  "model_type": "ResNet18",
+  "watermark_strength": 0.03,
+  "layers_watermarked": 6,
+  "original_accuracy": 0.5099999904632568,
+  "watermarked_accuracy": 0.5099999904632568,
+  "performance_drop": 0.0,
+  "timestamp": "0.0"
+}
