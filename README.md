@@ -4,6 +4,15 @@ A comprehensive implementation of cryptographically secure neural network waterm
 
 ## Movitivating Works
 
+G. Pagnotta, D. Hitaj, B. Hitaj, F. Perez-Cruz and L. V. Mancini, "TATTOOED: A Robust Deep Neural Network Watermarking Scheme based on Spread-Spectrum Channel Coding," in 2024 Annual Computer Security Applications Conference (ACSAC), Honolulu, HI, USA, 2024, pp. 1245-1258, doi: 10.1109/ACSAC63791.2024.00099. 
+https://www.computer.org/csdl/proceedings-article/acsac/2024/208800b245/25bv55h0zKw
+
+Tang, L., Chen, Y., Xue, H., & Zhang, Q. (2025). Towards the Resistance of Neural Network Watermarking to Fine-tuning. arXiv preprint arXiv:2505.01007
+https://arxiv.org/abs/2505.01007
+
+Bachina, V. S. P., Gangwal, A., Sharma, A. A., & Sharma, C. (2024). Genie: Watermarking graph neural networks for link prediction. arXiv preprint arXiv:2406.04805. 
+https://arxiv.org/abs/2406.04805
+
 
 ## Overview
 
@@ -144,9 +153,6 @@ pip install torch torchvision transformers numpy matplotlib scikit-learn cryptog
 from google.colab import drive
 drive.mount('/content/drive')
 
-# Clone repository (if applicable)
-!git clone https://github.com/your-username/neural-watermarking.git
-cd neural-watermarking
 ```
 
 ## Quick Start
