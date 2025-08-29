@@ -31,7 +31,7 @@ This project demonstrates a state-of-the-art approach to neural network watermar
 - **Cryptographically Secure**: HMAC-SHA256 based watermark generation
 - **Minimal Storage Impact**: <0.01% file size increase
 - **Real-time Progress**: Comprehensive progress reporting throughout
-- **Production Ready**: Complete verification and utility functions
+- **Pre-production Ready**: Complete verification and utility functions
 
 ## Core Concepts
 
@@ -61,7 +61,7 @@ The watermarking system employs multiple layers of security:
 - **Statistical Verification**: Pattern detection with confidence scoring
 - **Key-based Access**: Only authorized keys can verify watermarks
 
-## 🚨 Why Model Watermarking Matters
+## Why Model Watermarking Matters
 
 ### The AI Intellectual Property Crisis
 
@@ -81,7 +81,7 @@ As AI models become increasingly valuable, protecting intellectual property has 
 3. **Autonomous Vehicles**: Safety-critical models require tamper-proof verification
 4. **Financial AI**: Trading algorithms need protection from industrial espionage
 
-## 🎯 Use Cases
+## Use Cases
 
 ### 1. **Commercial Model Protection**
 ```python
@@ -139,7 +139,7 @@ integrity_check = verify_model_chain(received_model, chain_keys)
 - **Model Agnostic**: Compatible with different architectures
 - **Progress Reporting**: Real-time status updates
 - **Comprehensive Logging**: Detailed operation tracking
-- **Utility Functions**: Production-ready helper methods
+- **Utility Functions**: Pre-production-ready helper methods
 
 ## Installation
 
@@ -204,7 +204,7 @@ This will:
 5. Generate comprehensive analysis
 6. Save all results to Google Drive
 
-## 📊 Results
+## Results
 
 ### Performance Metrics
 
@@ -219,10 +219,10 @@ This will:
 
 | Test Case | Expected | Result | Status |
 |-----------|----------|--------|---------|
-| **Watermarked Model** | VERIFIED | VERIFIED | ✅ PASS |
-| **Original Model** | NOT VERIFIED | NOT VERIFIED | ✅ PASS |
-| **Wrong Key Test** | NOT VERIFIED | NOT VERIFIED | ✅ PASS |
-| **Tampered Model** | NOT VERIFIED | NOT VERIFIED | ✅ PASS |
+| **Watermarked Model** | VERIFIED | VERIFIED | PASS |
+| **Original Model** | NOT VERIFIED | NOT VERIFIED | PASS |
+| **Wrong Key Test** | NOT VERIFIED | NOT VERIFIED | PASS |
+| **Tampered Model** | NOT VERIFIED | NOT VERIFIED | PASS |
 
 ### Visualization Results
 
@@ -336,7 +336,7 @@ class SecurityModel:
   - Performance impact prediction
   - Security vulnerability assessment
 
-- [ ] **Production Tools**
+- [ ] **Pre-production Tools**
   - REST API for watermarking services
   - Command-line interface
   - Docker containerization
@@ -367,48 +367,9 @@ class SecurityModel:
 3. **Homomorphic Watermarking**: Watermark operations on encrypted models
 4. **Collaborative Watermarking**: Multi-party ownership and verification schemes
 
-## Contributing
 
-We welcome contributions! Here's how you can help:
-
-### Development Setup
-
-```bash
-git clone https://github.com/your-username/neural-watermarking.git
-cd neural-watermarking
-pip install -r requirements.txt
-pip install -e .  # Install in development mode
-```
-
-### Contribution Areas
-
-1. **New Model Architectures**: Add support for additional models
-2. **Security Enhancements**: Improve robustness and security
-3. **Performance Optimization**: Reduce computational overhead
-4. **Documentation**: Improve code documentation and tutorials
-5. **Testing**: Expand test coverage and edge cases
-
-### Pull Request Process
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request with detailed description
-
-### Code Standards
-
-- Follow PEP 8 style guidelines
-- Add comprehensive docstrings
-- Include unit tests for new features
-- Update documentation as needed
-
-## Support & Community
-
-- **Issues**: [GitHub Issues](https://github.com/your-username/neural-watermarking/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/neural-watermarking/discussions)
-- **Email**: neural-watermarking@yourproject.com
-- **Documentation**: [Full Documentation](https://your-username.github.io/neural-watermarking/)
+## Disclaimer
+This project is for educational and research purposes only. It is pre-production ready. However, do not use in actual production.
 
 ## License
 
@@ -426,14 +387,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this work in your research, please cite:
 
 ```bibtex
-@software{neural_watermarking_2024,
+@software{neural_watermarking_2025,
   title={Secure Neural Network Model Watermarking with GPU Acceleration},
   author={Eric Yocam},
-  year={2024},
-  url={https://github.com/your-username/neural-watermarking},
+  year={2025},
+  url={https://github.com/ericyoc/model-watermark-demo-poc},
   version={1.0.0}
 }
 
-Made with ❤️ for the AI security community
-
-</div>
