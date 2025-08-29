@@ -13,6 +13,11 @@ https://arxiv.org/abs/2505.01007
 Bachina, V. S. P., Gangwal, A., Sharma, A. A., & Sharma, C. (2024). Genie: Watermarking graph neural networks for link prediction. arXiv preprint arXiv:2406.04805. 
 https://arxiv.org/abs/2406.04805
 
+## Results
+<p align="center">
+  <img src="gpu_watermarking_analysis.png" alt="Performance Results" width="600"/>
+</p>
+
 
 ## Overview
 
